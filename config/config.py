@@ -8,14 +8,14 @@ load_dotenv()
 
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "23132181"))
+API_HASH = getenv("API_HASH", "a2ae0cccc6c392c9789097566ad2bfe8")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "8476651997:AAF2MJ4jF95dNtIU8lGu4j0yEciLGuePfm8")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "damXmusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@MUSICJ_ROBOT")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
@@ -51,11 +51,11 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002558009313"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "2016891453").split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -75,12 +75,12 @@ GIT_TOKEN = getenv(
 
 # Only  Links or username formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Divioni"
+    "SUPPORT_CHANNEL", "https://t.me/Rapat"
 )  # Example:- https://t.me/Divioni
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/northernpublik"
 )  # Example:- https://t.me/Divioni
-CHANNEL_USERNAME = getenv("CHANNEL_USERNAME", "Divioni")
+CHANNEL_USERNAME = getenv("CHANNEL_USERNAME", "rapat")
 # Channel Fsub:- channel username tanpa @
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -135,7 +135,7 @@ SET_CMDS = getenv("SET_CMDS", True)
 
 
 # You'll need a Pyrogram String Session for these vars. 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION"BQFg-BUAGpTUm2cQlAONQxp9BwskamYnt-N6-N0FAaEHOeYO3wP1WYsm-MDmg9Xpce2X0VviuHLvxHIN4Kx_6qYaXnojN3NKR13bpiIhCtelm3TwHIVHaq3EbamC5RLxqRpAhOVmDLzE6yfmLdz2DZdvPGdGK1fQe4cRHxq9zFPJ2o2mZBTeLbemtykT3YuxB59g8S8J5LmY5t2LfUm5lCbAunjYyqYABVEOYJlSWnjsG7Z9r3oG_yANGmafPa-IsxnWM2ZtD7oewH2OUNtjudD-Jx_2yaTUvzxqcET5i-xnQpvT0WxNxJRo2aOdFyPQeaNAQQqxzMdOhVKOWo_1iYOeLCZNCAAAAAF8yeLXAA, "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -161,12 +161,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/ug9gtq.jpg",
+    "https://files.catbox.moe/x5tup2.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/4whbu4.jpg",
+    "https://files.catbox.moe/x5tup2.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
